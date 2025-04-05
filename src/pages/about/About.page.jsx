@@ -1,5 +1,6 @@
 import React from "react";
 import Info from "../../components/about/Info.component";
+import Qualification from "../../components/about/Qualification.component"
 import AboutImg from "../../assets/about_image.jpg";
 import CV from "../../assets/Hirumitha-CV.pdf";
 import "./About.page.css";
@@ -48,6 +49,7 @@ const About = () => {
           </a>
         </div>
       </div>
+      <Qualification />
     </section>
   );
 };
