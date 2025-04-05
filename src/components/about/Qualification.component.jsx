@@ -34,7 +34,7 @@ const Qualification = () => {
             }
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
-            Work Experience
+            Completed Projects
           </div>
         </div>
 
@@ -108,9 +108,203 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title"></h3>
-                <span className="qualification__subtitle"></span>
-                <div className="qualification__calendar"></div>
+                <h3 className="qualification__title">
+                  Text based finance Tracker
+                </h3>
+                <span className="qualification__subtitle">
+                  Desktop | Python
+                </span>
+                <div className="project__link">
+                  <a href="https://www.github.com/itz-Hiru/Text-Based-Finance-Tracker">
+                    <i class="bx bxl-github"></i>
+                  </a>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Smart Expense Tracker</h3>
+                <span className="qualification__subtitle">
+                  Desktop | JavaFX
+                </span>
+                <div className="project__link">
+                  <a href="https://www.github.com/itz-Hiru/Smart-Expense-Tracker">
+                    <i class="bx bxl-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">My Scanner</h3>
+                <span className="qualification__subtitle">React Vite</span>
+                <div className="project__link">
+                  <a href="https://www.github.com/itz-Hiru/My-Scanner">
+                    <i class="bx bxl-github"></i>
+                  </a>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Money Map</h3>
+                <span className="qualification__subtitle">Android | Java</span>
+                <div className="project__link">
+                <a href="https://www.github.com/itz-Hiru/Money-Map">
+                  <i class="bx bxl-github"></i>
+                </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Budget Buddy</h3>
+                <span className="qualification__subtitle">
+                  Android | Kotlin
+                </span>
+                <div className="project__link">
+                <a href="https://www.github.com/itz-Hiru/Smart-Expense-Tracker">
+                  <i class="bx bxl-github"></i>
+                </a>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Care Bridge</h3>
+                <span className="qualification__subtitle">Android | Java</span>
+                <div className="project__link">
+                <a href="https://www.github.com/itz-Hiru/Care-Bridge">
+                  <i class="bx bxl-github"></i>
+                </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Audition Hive</h3>
+                <span className="qualification__subtitle">
+                  Full Stack | React Vite, NodeJS
+                </span>
+                <div className="project__link">
+                <a href="https://www.github.com/itz-Hiru/Blogging-Website-Frontend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.github.com/itz-Hiru/Blogging-Website-Backend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">QRify</h3>
+                <span className="qualification__subtitle">NextJS</span>
+                <div className="project__link">
+                <a href="https://www.github.com/itz-Hiru/QRify-project">
+                  <i class="bx bxl-github"></i>
+                </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Aurudu Nakath Seettuwa</h3>
+                <span className="qualification__subtitle">Android | Java</span>
+                <div className="project__link">
+                <a href="https://www.github.com/itz-Hiru/Aurudu-Nakath-Seettuwa">
+                  <i class="bx bxl-github"></i>
+                </a>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Book Review System</h3>
+                <span className="qualification__subtitle">
+                  Full Stack | React Vite, NodeJS
+                </span>
+                <div className="project__link">
+                <a href="https://www.github.com/itz-Hiru/Book-Review-System-Frontend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.github.com/itz-Hiru/Book-Review-System-Backend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Personal Finance Tracker
+                </h3>
+                <span className="qualification__subtitle">
+                  Full stack | Springboot, Angular
+                </span>
+                <div className="project__link">
+                <a href="https://www.github.com/itz-Hiru/Expense-Tracker-Angular-Frontend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.github.com/itz-Hiru/Expense-Tracker-Spring-Backend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                </div>
               </div>
               <div>
                 <span className="qualification__rounder"></span>

@@ -64,6 +64,14 @@
     font-size: var(--small-font-size);
 }
 
+.project__link {
+    font-size: var(--h3-font-size);
+}
+
+.project__link a {
+    color: var(--text-color);
+}
+
 .qualification__rounder {
     display: inline-block;
     width: 13px;
