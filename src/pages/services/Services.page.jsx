@@ -97,7 +97,7 @@ const Services = () => {
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="bx bx-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">React Bootstrap</p>
+                  <p className="services__modal-info">React Vite</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="bx bx-check-circle services__modal-icon"></i>
@@ -105,11 +105,11 @@ const Services = () => {
                 </li>
                 <li className="services__modal-service">
                   <i className="bx bx-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Creative UIs</p>
+                  <p className="services__modal-info">NextJS</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="bx bx-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Zero Errors</p>
+                  <p className="services__modal-info">Springboot</p>
                 </li>
               </ul>
             </div>
