@@ -5,7 +5,7 @@ import "./Header.component.css";
 const Header = () => {
   const [Toggle, showMenu] = useState(false);
 
-  const [activeNav, setActiveNav] = useState("#home");
+  const [activeNav, setActiveNav] = useState("/home");
 
   useEffect(() => {
     const element = document.getElementById("your-element-id");
@@ -31,10 +31,10 @@ const Header = () => {
           <ul className="nav__list grid">
             <li className="nav__item">
               <a
-                href="#home"
+                href="/home"
                 onClick={() => setActiveNav("#home")}
                 className={
-                  activeNav === "#home" ? "nav__link active-link" : "nav__link"
+                  activeNav === "/home" ? "nav__link active-link" : "nav__link"
                 }
               >
                 <i className="bx bxs-home nav__icon"></i> Home
@@ -42,10 +42,10 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a
-                href="#about"
+                href="/about"
                 onClick={() => setActiveNav("#about")}
                 className={
-                  activeNav === "#about" ? "nav__link active-link" : "nav__link"
+                  activeNav === "/about" ? "nav__link active-link" : "nav__link"
                 }
               >
                 <i className="bx bxs-user nav__icon"></i> About
@@ -53,10 +53,10 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a
-                href="#skills"
-                onClick={() => setActiveNav("#skills")}
+                href="/skills"
+                onClick={() => setActiveNav("/skills")}
                 className={
-                  activeNav === "#skills"
+                  activeNav === "/skills"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
@@ -66,10 +66,10 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a
-                href="#services"
-                onClick={() => setActiveNav("#services")}
+                href="/services"
+                onClick={() => setActiveNav("/services")}
                 className={
-                  activeNav === "#services"
+                  activeNav === "/services"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
@@ -79,10 +79,10 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a
-                href="#contact"
-                onClick={() => setActiveNav("#contact")}
+                href="/contact"
+                onClick={() => setActiveNav("/contact")}
                 className={
-                  activeNav === "#contact"
+                  activeNav === "/contact"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
