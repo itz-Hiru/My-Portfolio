@@ -46,10 +46,8 @@ npm run dev
 
 ---
 
-## 🖼️ Live Demo (If Available)
+## 🖼️ Live Demo
 [![Demo](https://img.shields.io/badge/Watch%20Demo-%F0%9F%8E%AC-red)](https://hirumitha-portfolio.vercel.app)
-
----
 
 ---
 
