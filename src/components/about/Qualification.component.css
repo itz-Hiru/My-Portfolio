@@ -72,6 +72,10 @@
     color: var(--text-color);
 }
 
+.project__link a:hover {
+    color: var(--title-color);
+}
+
 .qualification__rounder {
     display: inline-block;
     width: 13px;

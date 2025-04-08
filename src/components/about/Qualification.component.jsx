@@ -311,6 +311,41 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Salon Booking System</h3>
+                <span className="qualification__subtitle">
+                  Backend | Java, SpringBoot, MySQL
+                </span>
+                <div className="project__link">
+                <a href="https://github.com/itz-Hiru/Salon-Booking-User-Spring-Backend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://github.com/itz-Hiru/Salon-Booking-Service-Spring-Backend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://github.com/itz-Hiru/Salon-Booking-Category-Spring-Backend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://github.com/itz-Hiru/Salon-Booking-Offering-Spring-Backend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://github.com/itz-Hiru/Salon-Booking-Booking-Spring-Backend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://github.com/itz-Hiru/Salon-Booking-Payment-Spring-Backend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
