@@ -346,6 +346,29 @@ const Qualification = () => {
               </div>
             </div>
 
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Expense Tracker
+                </h3>
+                <span className="qualification__subtitle">
+                  MERN | NodeJS, React Vite
+                </span>
+                <div className="project__link">
+                <a href="https://www.github.com/itz-Hiru/Expense-Tracker-MERN-Frontend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.github.com/itz-Hiru/Expense-Tracker-MERN-Backend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
