@@ -369,6 +369,48 @@ const Qualification = () => {
               </div>
             </div>
 
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Task Manager</h3>
+                <span className="qualification__subtitle">
+                  Full Stack | NodeJS, React Vite, TailwindCSS
+                </span>
+                <div className="project__link">
+                <a href="https://github.com/itz-Hiru/Task-Manager-Frontend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://github.com/itz-Hiru/Task-Manager-Backend">
+                  <i class="bx bxl-github"></i>
+                </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  3D Portfolio
+                </h3>
+                <span className="qualification__subtitle">
+                  Frontend | React Vite, Tailwind CSS, ThreeJS
+                </span>
+                <div className="project__link">
+                <a href="https://www.github.com/itz-Hiru/3D-Portfolio">
+                  <i class="bx bxl-github"></i>
+                </a>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
