@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Qualification.component.css";
+import { LuSquareArrowOutUpRight } from "react-icons/lu"
 
 const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -408,6 +409,28 @@ const Qualification = () => {
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Movie Explorer</h3>
+                <span className="qualification__subtitle">
+                  Frontend | React Vite TailwindCSS Firebase
+                </span>
+                <div className="project__link">
+                <a href="https://github.com/itz-Hiru/Movie-Explorer">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://movie-explorer-loons-lab.vercel.app">
+                  <LuSquareArrowOutUpRight />
+                </a>
+                </div>
               </div>
             </div>
 
